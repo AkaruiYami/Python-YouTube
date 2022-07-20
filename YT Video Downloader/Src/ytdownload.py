@@ -1,9 +1,10 @@
 import sys
+from pathlib import Path
 from pytube import YouTube
 
 
 def main():
-    download_path = r"C:\Users\AkaruiYami\Desktop\Developer\P001\Python 3.10\YouTube2022\YT Video Downloader\Downloads"
+    download_path = Path(__file__).parents[1].joinpath("Downloads")
 
     link = sys.argv[1]
     yt = YouTube(link)
