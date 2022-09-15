@@ -4,6 +4,7 @@ Here we going to create a simple digital clock using tkinter.
 It is very simple and there no need to install any extra library or module since tkinter is part of base python.
 
 Below is screenshot of what we going to make:
+
 ![Simple Digital Clock](Screenshot%201.jpg)
 
 ## 1.0 Creating the main application
