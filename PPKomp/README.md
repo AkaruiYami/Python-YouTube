@@ -26,8 +26,25 @@ Bahasa pengaturcaraan yang dibenarkan adalah:
 -   VB.Net
 -   Ruby.
 
-# Kandungan
+# Isi Kandungan
 
 Disini disediakan penyelesaian dalam Python.
+
+-   [PPKomp 2022](./PPKomp2022)
+
+    -   [Set A](./PPKomp2022/Set%20A)
+        -   [Q1: Sama Saiz](./PPKomp2022/Set%20A/README.md#1.0-sama-saiz)
+    -   [Set C](./PPKomp2022/Set%20C)
+
+-   [PPKomp 2021](./PPKomp2021/)
+    -   [Set A](./PPKomp2021/Set%20A)
+        -   [Q1: Ayam dan Kambing](./PPKomp2021/Set%20A/README.md#ayam-dan-kambing)
+        -   [Q2: Beza Usia Syiling](./PPKomp2021/Set%20A/README.md#beza-usia-syiling)
+        -   [Q3: Buku 1](./PPKomp2021/Set%20A/README.md#buku-1)
+        -   [Q4: Gula Gula dalam Cawan](./PPKomp2021/Set%20A/README.md#gula-gula-dalam-cawan)
+        -   [Q5: Jujukan Huruf A-G](./PPKomp2021/Set%20A/README.md#jujukan-huruf-a-g)
+        -   [Q6: Jujukan Nombor](./PPKomp2021/Set%20A/README.md#jujukan-nombor)
+    -   [Set B](./PPKomp2021/Set%20B)
+    -   [Set C](./PPKomp2021/Set%20C)
 
 [1]: https://www.ppkomp.com.my/
