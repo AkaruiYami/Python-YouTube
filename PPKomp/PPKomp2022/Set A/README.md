@@ -1,6 +1,7 @@
 # Isi Kandungan
 
 -   [1.0 Sama Saiz](#1.0-sama-saiz)
+-   [2.0 Sistem Nombor](#2.0-sistem-nombor)
 
 # 1.0 Sama Saiz
 
@@ -20,6 +21,9 @@ Berikut kita ada 1 tali yang panjangnya adalah 10 unit. Jika kita perlukan tali 
 
 ![Alt text](assets/strip_01.png)
 
+### Video Penerangan:
+[![YouTube PPKomp2022 Set A Q1](https://img.youtube.com/vi/SYDVUrEPaIQ/0.jpg)](https://www.youtube.com/watch?v=SYDVUrEPaIQ)
+
 # 2.0 Sistem Nombor
 
 Diberikan satu nobor antara 0 hingga 77777. Nyatakan `sah` jika nombor tersebut merupakan asas 8 dan `tidak sah` jika sebaliknya.
@@ -37,3 +41,6 @@ p = re.compile(r"[^0-7]+")
 ```
 
 Code di atas mencipta satu `pattern` yang mencari character selain 0 hingga 7.
+
+### Video Penerangan
+[![YouTube PPKomp2022 Set A Q2](https://img.youtube.com/vi/YtzRZ-dUKSE/0.jpg)](https://www.youtube.com/watch?v=YtzRZ-dUKSE)
