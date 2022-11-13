@@ -35,6 +35,7 @@ Disini disediakan penyelesaian dalam Python.
     -   [Set A](./PPKomp2022/Set%20A)
         -   [Q1: Sama Saiz](./PPKomp2022/Set%20A/README.md#1.0-sama-saiz)
         -   [Q2: Sistem Nombor](./PPKomp2022/Set%20A/README.md#2.0-sistem-nombor)
+        -   [Q3: Markah Peperiksaan 1](./PPKomp2022/Set%20A/README.md#3.0-markah-peperiksaan-1)
     -   [Set C](./PPKomp2022/Set%20C)
 
 -   [PPKomp 2021](./PPKomp2021/)

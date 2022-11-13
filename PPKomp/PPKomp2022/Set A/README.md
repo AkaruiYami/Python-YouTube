@@ -44,3 +44,17 @@ Code di atas mencipta satu `pattern` yang mencari character selain 0 hingga 7.
 
 ### Video Penerangan
 [![YouTube PPKomp2022 Set A Q2](https://img.youtube.com/vi/YtzRZ-dUKSE/0.jpg)](https://www.youtube.com/watch?v=YtzRZ-dUKSE)
+
+# 3.0 Markah Peperiksaan 1
+Diberi 4 string input berformat `{markah}/{markah penuh}`. Daripada 4 string ini, cari dan paparkah subjek peperiksaan yang mendapat markah tertinggi.
+
+## 3.1 Peneyelesaian
+Cipta sati dictionary untuk simpan markah bagi setiap subjek. Kita namakan dictionary ini sebagain `marks`. Untuk setiap subjek, kita dapatkan kirakan markah menggunakan fungi `eval()`.
+
+```python
+marks["Sains"] = eval(input())
+```
+
+Code diatas menetapkan markah bagi subjek `Sains` kepada nilai input yang dikira. Fungi `eval()` mengambil satu string dan mengeluarkan nilai setelah string itu dinilai. Contohnya, `eval("10/2")` akan pulangkan hasil bahagi 10 / 2, iaitu `5`.
+
+Menggunakan fungsi `max()` kita akan cari nilai paling besar dalam dictionary marks. Kita beri argument tambahan, `key = marks.get` kepada fungsi `max()` untuk pastikan fungsi tersebut mmembandingkan nilai berdasarkan `value` dictionary dan bukannya `key` dictionary tersebut.
