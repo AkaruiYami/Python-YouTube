@@ -2,6 +2,7 @@
 
 -   [1.0 Sama Saiz](#1.0-sama-saiz)
 -   [2.0 Sistem Nombor](#2.0-sistem-nombor)
+-   [3.0 Markah Peperiksaan 1](#3.0-markah-peperiksaan-1)
 
 # 1.0 Sama Saiz
 
