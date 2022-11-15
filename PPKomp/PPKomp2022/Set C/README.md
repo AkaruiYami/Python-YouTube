@@ -1,6 +1,7 @@
 # Isi Kandungan
 
 - [1.0 Jujukan Nombor](#1.0-jujukan-nombor)
+- [2.0 Sistem 24-Jam](#2.0-sistem-24-jam)
 
 # 1.0 Jujukan Nombor
 Diberkan 2 input. Input pertama merupakan 3 integer bagi 3 nombor pertama dalam satu jujukan nombor. Input kedua merupakan `n` iaitu bilangan sebutan yang perlu ditambah ke dalam jujukan. Output bagi soalan ialah ialah satu jujutan nombor yang mempunya 3 + n sebutan nombor.
@@ -20,3 +21,9 @@ Jawapan bagi soalan ini ialah:
 ```python
 print(*t, *next_t)
 ```
+
+# 2.0 Sistem 24-Jam
+Diberi 2 baris input. Baris pertama adalah sastu string berformat _hh:mm:ss_ manakala baris kedua adalah `x` iaitu integer mewakili jumlah saat. Kira dari paparkan masa selepa `x` saat berlalu.
+
+# 2.1 Peneyelesaian Menggunakan Module datetime
+Pertama sekali, import modul `datetime`. Kemudian kita cipta satu datetime objek menggunakan input pertama. Kemudian hasilkan satu objek menggunakan deltatime dari modul datetime dengan parameter `s = x`. `x` merupakan input kedua. Penyelesaian bagi masalah ini adalah hasil tambah antara objek datetime dan deltatime dan paparkan menggunakan format masa yang bertul.
