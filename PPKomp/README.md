@@ -36,6 +36,7 @@ Disini disediakan penyelesaian dalam Python.
         -   [Q1: Sama Saiz](./PPKomp2022/Set%20A/README.md#1.0-sama-saiz)
         -   [Q2: Sistem Nombor](./PPKomp2022/Set%20A/README.md#2.0-sistem-nombor)
         -   [Q3: Markah Peperiksaan 1](./PPKomp2022/Set%20A/README.md#3.0-markah-peperiksaan-1)
+        -   [Q4: Sistem 24 Jam](./PPKomp2022/Set%20A/README.md#4.0-sistem-24-jam)
     -   [Set C](./PPKomp2022/Set%20C)
         -   [Q1: Jujukan Nombor](./PPKomp2022/Set%20C/README.md#1.0-jujukan-nombor)
         -   [Q2: Sistem 24-Jam](./PPKomp2022/Set%20C/README.md##2.0-sistem-24-jam)

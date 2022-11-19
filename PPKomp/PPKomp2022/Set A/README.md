@@ -3,6 +3,7 @@
 -   [1.0 Sama Saiz](#1.0-sama-saiz)
 -   [2.0 Sistem Nombor](#2.0-sistem-nombor)
 -   [3.0 Markah Peperiksaan 1](#3.0-markah-peperiksaan-1)
+-   [4.0 Sistem 24 Jam](#4.0-sistem-24-jam)
 
 # 1.0 Sama Saiz
 
@@ -22,7 +23,8 @@ Berikut kita ada 1 tali yang panjangnya adalah 10 unit. Jika kita perlukan tali 
 
 ![Alt text](assets/strip_01.png)
 
-### Video Penerangan:
+## 1.3 Video Penerangan:
+
 [![YouTube PPKomp2022 Set A Q1](https://img.youtube.com/vi/SYDVUrEPaIQ/0.jpg)](https://www.youtube.com/watch?v=SYDVUrEPaIQ)
 
 # 2.0 Sistem Nombor
@@ -43,13 +45,16 @@ p = re.compile(r"[^0-7]+")
 
 Code di atas mencipta satu `pattern` yang mencari character selain 0 hingga 7.
 
-### Video Penerangan
+## 2.3 Video Penerangan
+
 [![YouTube PPKomp2022 Set A Q2](https://img.youtube.com/vi/YtzRZ-dUKSE/0.jpg)](https://www.youtube.com/watch?v=YtzRZ-dUKSE)
 
 # 3.0 Markah Peperiksaan 1
+
 Diberi 4 string input berformat `{markah}/{markah penuh}`. Daripada 4 string ini, cari dan paparkah subjek peperiksaan yang mendapat markah tertinggi.
 
 ## 3.1 Peneyelesaian
+
 Cipta sati dictionary untuk simpan markah bagi setiap subjek. Kita namakan dictionary ini sebagain `marks`. Untuk setiap subjek, kita dapatkan kirakan markah menggunakan fungi `eval()`.
 
 ```python
@@ -59,3 +64,35 @@ marks["Sains"] = eval(input())
 Code diatas menetapkan markah bagi subjek `Sains` kepada nilai input yang dikira. Fungi `eval()` mengambil satu string dan mengeluarkan nilai setelah string itu dinilai. Contohnya, `eval("10/2")` akan pulangkan hasil bahagi 10 / 2, iaitu `5`.
 
 Menggunakan fungsi `max()` kita akan cari nilai paling besar dalam dictionary marks. Kita beri argument tambahan, `key = marks.get` kepada fungsi `max()` untuk pastikan fungsi tersebut mmembandingkan nilai berdasarkan `value` dictionary dan bukannya `key` dictionary tersebut.
+
+# 4.0 Sistem 24 Jam
+
+Diberi 2 baris input. Baris pertama merupakan masa dalam format _hh:mm_ dimana _hh_ adalah jam dan _mm_ adalah minit yang dipisahkan dengan :. Baris kedua pula merupakan _x_ minit. Cari dan paparkan masa setelah _x_ minit berlalu daripada input pertama.
+
+## 4.1 Penyelesaian
+
+Menggunakan module `datetime`, kita boleh mengira masa yang berlalu dengan mudah. Untuk input baris pertama, masukkan input tersebut kepada fungsi datetime seperti yang ditunjukkan di bawah:
+
+```python
+import datetime
+
+input1 = input()
+masa_awal = datetime.datetime.strptime(input1, "%H:%M")
+```
+
+Dalam method `strptime()` kita perlu sertakan sekalai format masa yang kita ada iaitu dalam kes ini, format input kita ialah JAM:MINIT dimana `%H` merujuk kepada jam, dan `%M` merujuk kepada minit.
+
+Seterusnya, input kedua akan dimasukkan ke dalam fungsi `timedelta()` daripada module `datetime` seperti di bawah:
+
+```python
+x = input()
+d = datetime.timedelta(minutes = int(x))
+```
+
+Akhir sekali, tambahkan `masa_awal` dengan `d` untuk mendapatkan jawapan bagi masalah ini.
+
+```python
+
+jawapan = masa_awal + d
+print(jawapan)
+```
