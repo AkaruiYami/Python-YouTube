@@ -96,3 +96,9 @@ Akhir sekali, tambahkan `masa_awal` dengan `d` untuk mendapatkan jawapan bagi ma
 jawapan = masa_awal + d
 print(jawapan)
 ```
+
+</br>
+
+<div style="text-align: right">
+    <a href="#isi-kandungan" style="font-size: .75em">^ Go Up</a>
+</div>

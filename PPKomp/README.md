@@ -53,3 +53,10 @@ Disini disediakan penyelesaian dalam Python.
     -   [Set C](./PPKomp2021/Set%20C)
 
 [1]: https://www.ppkomp.com.my/
+
+
+</br>
+
+<div style="text-align: right">
+    <a href="#isi-kandungan" style="font-size: .75em">^ Go Up</a>
+</div>
