@@ -4,6 +4,7 @@
 -   [2.0 Sistem Nombor](#2.0-sistem-nombor)
 -   [3.0 Markah Peperiksaan 1](#3.0-markah-peperiksaan-1)
 -   [4.0 Sistem 24 Jam](#4.0-sistem-24-jam)
+-   [5.0 Jujukan Nombor](#5.0-jujukan-nombor)
 
 # 1.0 Sama Saiz
 
@@ -96,6 +97,34 @@ Akhir sekali, tambahkan `masa_awal` dengan `d` untuk mendapatkan jawapan bagi ma
 jawapan = masa_awal + d
 print(jawapan)
 ```
+
+# 5.0 Jujukan Nombor
+
+Diber 2 input. Input pertama merupakan senarai nombor yang merupakan jujukan 3 pertama dalam satu jujukan nombor. Input kedua adalah bilangan nombor yang perlu ditambah dalam jujukan tersebut. Kira dan pamerkan jujukan nombor tersebut.
+
+# 5.1 Penyelesaian
+
+Untuk mengetahui nombor seterusnya dalam satu jujukan nombor, kita perlu mencari beza serupa 'common difference' `d` iaitu `sebutan kedua` - `sebutan pertama` atau `sebutan ketiga` - `sebutan kedua`.
+
+Seteleh menemui `d`, kita boleh mendapatkan nombor seterusnya dengan menambahkan `d` kepada nombor terakhir dalam jujukan yang sedia ada.
+
+```
+    n = 4
+
+    T1 = 11
+    T2 = 22
+    T3 = 33
+
+    d = T2 - T1 = T3 - T2 = 11
+
+    T4 = T3 + d
+    T5 = T4 + d
+    T6 = T5 + d = (T4 + d) + d = ((T3 + d) + d) + d = T3 + (3 * d)
+```
+
+Kita boleh lihat, T6 merupakan satu sebutan ketiga selepas sebutan T3 oleh itu kita perlu darabkan `d` dengan 3. Untuk mendapatkan T7, oleh kerana T7 merupakan sebutan keempat selepas sebutan akhir (7 - 3 = 4), maka kita akan darabkan `d` dengan 4. Oleh itu sebutan keempat adalah `T3 + (4* d)`.
+
+Oleh kerana `n` kita adalah 4, maka kita hanya perlu cari 4 nombor seterusnya sahaja. Semua nilai ini boleh disimpan dalam satu `list` dan akan dipamerkan menggunakan print() untuk menyelesaikan masalah ini.
 
 </br>
 
