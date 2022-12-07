@@ -5,6 +5,7 @@
 -   [3.0 Markah Peperiksaan 1](#3.0-markah-peperiksaan-1)
 -   [4.0 Sistem 24 Jam](#4.0-sistem-24-jam)
 -   [5.0 Jujukan Nombor](#5.0-jujukan-nombor)
+-   [6.0 Nombor Plat Kenderaan](#6.0-nombor-plat-kenderaan)
 
 # 1.0 Sama Saiz
 
@@ -125,6 +126,16 @@ Seteleh menemui `d`, kita boleh mendapatkan nombor seterusnya dengan menambahkan
 Kita boleh lihat, T6 merupakan satu sebutan ketiga selepas sebutan T3 oleh itu kita perlu darabkan `d` dengan 3. Untuk mendapatkan T7, oleh kerana T7 merupakan sebutan keempat selepas sebutan akhir (7 - 3 = 4), maka kita akan darabkan `d` dengan 4. Oleh itu sebutan keempat adalah `T3 + (4* d)`.
 
 Oleh kerana `n` kita adalah 4, maka kita hanya perlu cari 4 nombor seterusnya sahaja. Semua nilai ini boleh disimpan dalam satu `list` dan akan dipamerkan menggunakan print() untuk menyelesaikan masalah ini.
+
+# 6.0 Nombor Plat Kenderaan
+
+Diberi satu string input yang mengandungi nombor plat kenderaan. Input ini merupakan gabungan huruf dan nombor. Jika semua nombor daripada nombor plat ini ditambahkan bersama, kira dan pamerkan hasil tambah tersebut.
+
+# 6.1 Penyelesaian
+
+Terdapat 2 kaedah penyelesaian bagi masalah ini. Yang pertama, kita boleh menggunakan `for loop` untuk meneyemak setiap elemen dalam string input. Jika elemen itu merupakan nombor, maka kita akan tambahkan nombor itu ke dalam variable `total` Setelah `for loop` selesai menyemak kesemua elemen dalam input tersebut, maka kita akan pamerkan `total` yang telah dikira.
+
+Kaedah kedua lebih ringkas dimana kita akan menggunakan `filter()`. Parameter pertama `filter()` ialah satu fungsi untuk mencari nombor dari input dan parameter kedua adalah input yang ingin disemak. Hasil daripada `filter()` ini akan diberikan kepada fungsi `join()` dan kita akan masukkan `"+"` antara setiap elemen yang kita telah `filter()`. Hasil tambah boleh didapatkan menggunakan fungsi `eval()`.
 
 </br>
 
