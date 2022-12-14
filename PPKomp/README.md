@@ -41,8 +41,8 @@ Disini disediakan penyelesaian dalam Python.
         -   [Q6: Nombor Plat Kenderaan](./PPKomp2022/Set%20A/README.md##6.0-nombor-plat-kenderaan)
     -   [Set C](./PPKomp2022/Set%20C)
         -   [Q1: Jujukan Nombor](./PPKomp2022/Set%20C/README.md#1.0-jujukan-nombor)
-        -   [Q2: Sistem 24-Jam](./PPKomp2022/Set%20C/README.md##2.0-sistem-24-jam)
-        -   [Q3: Markah Peperiksaan](./PPKomp2022/Set%20C/README.md##3.0-markah-peperiksaan)
+        -   [Q2: Sistem 24-Jam](./PPKomp2022/Set%20C/README.md#2.0-sistem-24-jam)
+        -   [Q3: Markah Peperiksaan](./PPKomp2022/Set%20C/README.md#3.0-markah-peperiksaan)
 
 -   [PPKomp 2021](./PPKomp2021/)
     -   [Set A](./PPKomp2021/Set%20A)
