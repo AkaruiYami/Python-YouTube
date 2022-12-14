@@ -1,8 +1,8 @@
 # Isi Kandungan
 
--   [1.0 Jujukan Nombor](#1.0-jujukan-nombor)
--   [2.0 Sistem 24-Jam](#2.0-sistem-24-jam)
--   [3.0 Markah Peperiksaan](#3.0-markah-peperiksaan)
+-   [1.0 Jujukan Nombor](#10-jujukan-nombor)
+-   [2.0 Sistem 24-Jam](#20-sistem-24-jam)
+-   [3.0 Markah Peperiksaan](#30-markah-peperiksaan)
 
 # 1.0 Jujukan Nombor
 

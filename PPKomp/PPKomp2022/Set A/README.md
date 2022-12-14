@@ -1,11 +1,11 @@
 # Isi Kandungan
 
--   [1.0 Sama Saiz](#1.0-sama-saiz)
--   [2.0 Sistem Nombor](#2.0-sistem-nombor)
--   [3.0 Markah Peperiksaan 1](#3.0-markah-peperiksaan-1)
--   [4.0 Sistem 24 Jam](#4.0-sistem-24-jam)
--   [5.0 Jujukan Nombor](#5.0-jujukan-nombor)
--   [6.0 Nombor Plat Kenderaan](#6.0-nombor-plat-kenderaan)
+-   [1.0 Sama Saiz](#10-sama-saiz)
+-   [2.0 Sistem Nombor](#20-sistem-nombor)
+-   [3.0 Markah Peperiksaan 1](#30-markah-peperiksaan-1)
+-   [4.0 Sistem 24 Jam](#40-sistem-24-jam)
+-   [5.0 Jujukan Nombor](#50-jujukan-nombor)
+-   [6.0 Nombor Plat Kenderaan](#60-nombor-plat-kenderaan)
 
 # 1.0 Sama Saiz
 
