@@ -12,6 +12,6 @@ In my [YouTube][1] channel, I mostly shares solution and tips in Python. I somet
 
 # What You Should Expect In This Repo
 
-Here is collections of all code that is from my YouTube video in 2022. I will also try my best to provide explanation to the code in form of markdown so do check the README.md in the folder.
+Here is collections of all code that is from my YouTube video. I will also try my best to provide explanation to the code in form of markdown so do check the README.md in the folder.
 
 [1]: https://www.youtube.com/channel/UCS_MEhU_i7IEJxF_alaztzw
