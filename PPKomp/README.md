@@ -33,14 +33,14 @@ Disini disediakan penyelesaian dalam Python.
 -	[PPKomp2023](./PPKomp2023)
 
 	-	[Set A](./PPKomp2023/Set%20A)
-			-	Q1: Segiempat Tepat 1
-			-	Q2: Darab atau Tambah
-			-	Q3: 3 Cawan Gula-Gula 2
-			-	Q4: Siput
-			-	Q5: Skala Gred 1
-			-	Q6: Jujukan Segiempat Sama 1
+		-	Q1: Segiempat Tepat 1
+		-	Q2: Darab atau Tambah
+		-	Q3: 3 Cawan Gula-Gula 2
+		-	Q4: Siput
+		-	Q5: Skala Gred 1
+		-	Q6: Jujukan Segiempat Sama 1
 	-	[Set B](./PPKomp2023/Set%20B)
-			-	Q3: Skala Gred 2
+		-	Q3: Skala Gred 2
 
 -   [PPKomp 2022](./PPKomp2022)
 
