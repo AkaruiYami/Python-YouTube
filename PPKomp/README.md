@@ -42,6 +42,7 @@ Disini disediakan penyelesaian dalam Python.
 	-	[Set B](./PPKomp2023/Set%20B)
 		-	Q3: Skala Gred 2
 		-	Q4: Jujukan Segiempat Sama 2
+		-	Q5: Caesar Cipher 1
 
 -   [PPKomp 2022](./PPKomp2022)
 
